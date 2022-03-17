@@ -53,7 +53,7 @@ li{
 
 .row{
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 12px;
 }
@@ -218,7 +218,7 @@ section:nth-child(even){
        flex: 1;
        display: flex;
        align-items: center;
-       margin-top: 10px;
+       margin-top: 50px;
    }
 
    .about-me__img--container > img{
@@ -249,8 +249,9 @@ section:nth-child(even){
        display: flex;
        justify-content: center;
        position: relative;
+       
    }
-   
+
    .language__img{
        width: 100%;
        max-width: 128px;
@@ -263,13 +264,15 @@ section:nth-child(even){
        justify-content: space-around;
        margin: 2px 0;
        padding: 25px 16px;
+       min-height: 178px;
+       max-height: 178px;
    }
 
    .language__list{
        display: flex;
        width: 100%;
        flex-wrap: wrap;
-       margin: 25px 16px;
+       margin: 25px auto;
    }
 
     .language:hover .language__img{
@@ -410,7 +413,7 @@ section:nth-child(even){
        flex-direction: column;
        align-items: center;
        justify-content: center;
-       padding: 8% 0;
+       padding: 4% 0;
    }
 
    .footer__social--link,
