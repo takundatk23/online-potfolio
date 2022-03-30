@@ -186,9 +186,13 @@ section:nth-child(even){
        /* improving my own picture */
        transform: scale(1.1);
        padding-left: 4px;
+        transition: transform 350ms;
    }
 
-   
+   .about-me__picture:hover{
+       transform: scale(1.2);
+       cursor: pointer;
+   }
 
    .about-me__info--para{
        font-size: px;
